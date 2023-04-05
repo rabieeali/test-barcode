@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #333333;
+  --gray: #686666;
+  --body: #f2f3f5;
+  --green: #24aeb1;
+  --blue: #52acf6;
+  --red: #ec4141;
+  --yellow: #f7b93e;
+  --pink: #f55099;
+
+  --fs-10: 10px
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-32: 32px;
+
+  --border-gray-1: 1px solid var(--gray);
+  --border-gray-2: 2px solid var(--gray);
+  --border-gray-4: 4px solid var(--gray);
+  --border-gray-8: 8px solid var(--gray);
+  --border-gray-10: 10px solid var(--gray);
+  --border-gray-14: 14px solid var(--gray);
+  --border-gray-16: 16px solid var(--gray);
+  --border-gray-20: 20px solid var(--gray);
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+body {
+  background-color: var(--body);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,small,strong,del{
+    font-size: var(--fs-12);
+}
+ 
